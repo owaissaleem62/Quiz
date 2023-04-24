@@ -34,7 +34,71 @@ body
     /* color: #d7dade; */
     color: #d7dade;
 }
+@media screen and (max-width: 768px) {
+    #container
+{
+    border-radius: 30px;
+    width: 300px;
+    max-height: 630px;
+    border: 1px solid #ffffff20;
+    overflow: hidden;
+    background-color: #1e293b;
+    color: #d7dade;
+}
+.correct
+{
+    /* background-color: #1bd027;
+    color: #1e293b; */
+    color: #ccdae7;
+    background-color: #0d1013;
+}
+.correct2{
+    background-color: #1bd027;
+    color: #1e293b;
+}
+.correct span
+{
+    background: #1e293b;
+    /* color: #1bd027; */
+    color: #ccdae7;
+    
+}
+.correct2 span{
+    background: #1e293b;
+    color: #1bd027;
+}
 
+.wrong
+{
+    /* background-color: #e73030;
+    color: #1e293b; */
+    color: #ccdae7;
+    background-color: #0d1013;
+}
+.wrong2{
+    background-color: #e73030;
+    color: #1e293b;
+}
+
+.wrong span
+{
+    /* background: #1e293b;
+    color: #e73030; */
+    background: #1e293b;
+    color: #ccdae7;
+}
+.wrong2 span{
+    background: #1e293b;
+    color: #e73030;
+}
+.option:hover
+{
+    /* background-color: #e9be0e; */
+    background-color: #42e0cb;
+    color: #1e293b;
+}
+
+}
 .header
 {
     background-color: #1e293b;
@@ -145,7 +209,7 @@ button:hover
     /* background-color: #1bd027;
     color: #1e293b; */
     color: #ccdae7;
-    background-color: #10151a;
+    background-color: #0d1013;
 }
 .correct2{
     background-color: #1bd027;
@@ -168,7 +232,7 @@ button:hover
     /* background-color: #e73030;
     color: #1e293b; */
     color: #ccdae7;
-    background-color: #10151a;
+    background-color: #0d1013;
 }
 .wrong2{
     background-color: #e73030;
